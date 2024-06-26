@@ -2,7 +2,7 @@ import {BrowserCheck, RetryStrategyBuilder} from 'checkly/constructs'
 
 new BrowserCheck('otel-test-app-check-1',{
   name: 'Otel Test App Check',
-  frequency: 10,
+  frequency: 30,
   tags: ['otel'],
   code: {
     entrypoint: './otel-test-app.spec.ts'
