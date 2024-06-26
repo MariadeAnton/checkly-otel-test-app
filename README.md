@@ -14,8 +14,8 @@ This demo repo already comes with the necessary instrumentation code. You can fi
 
 3. Add the following environment variables to your Vercel project settings. also as per the docs.
 
-    - `OTEL_EXPORTER_OTLP_HEADERS=<otel-api-key>`
-    - `OTEL_EXPORTER_OTLP_ENDPOINT"https://otel.eu-west-1.checklyhq.com"`
+    - `OTEL_EXPORTER_OTLP_HEADERS="authorization=<otel-api-key>"`
+    - `OTEL_EXPORTER_OTLP_ENDPOINT=https://otel.eu-west-1.checklyhq.com`
 
     You might need to redeploy your Vercel deployment after adding these environment variables.
 
