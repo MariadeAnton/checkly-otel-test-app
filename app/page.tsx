@@ -1,6 +1,5 @@
 import { trace } from '@opentelemetry/api'
 export const dynamic = 'force-dynamic'
-export const runtime = 'edge'
 
 async function fetchData(shouldFail: number) {
 
