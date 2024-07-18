@@ -1,4 +1,4 @@
-# OpenTelemetry Test App
+# OpenTelemetry Test App yay
 
 This is a small Next.js app used for testing and demoing the Checkly OpenTelemetry integration. It randomly throws errors, 
 so we can get some traces quickly. Have a look at the `app/page.tsx` file to see how it does this.
