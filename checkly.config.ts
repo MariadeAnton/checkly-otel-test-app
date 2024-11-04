@@ -3,7 +3,7 @@ import { defineConfig } from 'checkly'
 const config = defineConfig({
   projectName: 'otel-test-app',
   logicalId: 'otel-test-app-1',
-  repoUrl: 'https://github.com/tnolet/nextjs',
+  repoUrl: 'https://github.com/MariadeAnton/checkly-otel-test-app',
   checks: {
     frequency: 10,
     locations: ['us-east-1', 'eu-west-1'],
