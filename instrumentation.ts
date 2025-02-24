@@ -4,7 +4,7 @@ import { trace, Context } from '@opentelemetry/api'
 
 export function register() {
   registerOTel({
-    serviceName: 'marias-nextjs-app',
+    serviceName: 'marias-nextjs-app-dev-branch',
     traceExporter: 'auto',
     spanProcessors: ['auto'],
     traceSampler: {
